@@ -188,7 +188,7 @@ function submit(){
             --keep-going --restart-times 3 -j 500 --rerun-incomplete --stats "$3"/logfiles/runtime_statistics.json \
             --keep-remote 2>&1 | tee -a "$3"/logfiles/master.log)
           # Clean-up working directory after completion
-          cleanup_id=$(sbatch -J "pl:clean" --dependency=afterany:${job_id} "$3"/resources/cleanup "$3" "$job_id")
+          cleanup_id=$(sbatch -J "pl:clean" -p short -t 11:00:00 --dependency=afterany:${job_id} "$3"/resources/cleanup "$3" "$job_id")
         ;;
       *)  echo "${executor} is not available." && \
           fatal "Failed to provide valid execution backend: ${executor}. Please use slurm."
