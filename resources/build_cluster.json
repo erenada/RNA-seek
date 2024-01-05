@@ -2,7 +2,8 @@
     "__default__": {
         "mem": "8g",
         "threads": "1",
-        "time": "6:00:00"
+        "time": "6:00:00",
+        "partition": "short"
     },
     "star_rl": {
         "mem": "48g",
