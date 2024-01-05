@@ -1,7 +1,7 @@
 {
 	"__default__": {
 		"mem": "48g",
-		"partition": "medium",
+		"partition": "short",
 		"threads": "4",
 		"time": "11:00:00"
 	},
