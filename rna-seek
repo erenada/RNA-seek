@@ -1599,7 +1599,7 @@ def cache(sub_args):
             # Quote user provided values to avoid shell injections
             username = os.environ.get('USER', os.environ.get('USERNAME'))
             masterjob = subprocess.Popen(
-                'sbatch --parsable -J pl:cache --time=10:00:00 --mail-type=BEGIN,END,FAIL ' +
+                'sbatch --parsable -J pl:cache --partition medium --time=2-00:00:00 --mail-type=BEGIN,END,FAIL ' +
                 str(os.path.join(repo_path, 'resources', 'cacher')) + ' slurm ' +
                 " -s '{}' ".format(sif_cache) +
                 " -i '{}' ".format(','.join(pull)) + 

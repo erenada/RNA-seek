@@ -1,117 +1,102 @@
 {
 	"__default__": {
-		"gres": "lscratch:256",
 		"mem": "48g",
-		"partition": "norm",
-		"threads": "4",
-		"time": "4-00:00:00"
+		"partition": "short",
+		"threads": "20",
+		"time": "11:59:00"
 	},
 	"bam2bw_rnaseq_pe": {
 		"mem": "40g",
-		"threads": "4"
+		"threads": "20"
 	},
 	"bam2bw_rnaseq_se": {
 		"mem": "40g",
-		"threads": "2"
+		"threads": "20"
 	},
 	"bbmerge": {
 		"mem": "64g",
-		"threads": "4"
+		"threads": "20"
 	},
 	"fastqc": {
-		"mem": "24g",
-		"gres": "lscratch:64",
-		"threads": "32",
-		"time": "1-00:00:00"
+		"mem": "48g",
+		"threads": "20",
+		"time": "11:59:00"
 	},
 	"fastq_screen": {
-		"mem": "24g",
-		"threads": "24",
-		"time": "2-00:00:00"
+		"mem": "48g",
+		"threads": "20",
+		"time": "11:59:00"
 	},
 	"kraken_pe": {
-		"cpus-per-task": "24",
-		"gres": "lscratch:256",
-		"mem": "110g"
+		"cpus-per-task": "20",
+		"mem": "96g"
 	},
 	"kraken_se": {
-		"cpus-per-task": "24",
-		"gres": "lscratch:256",
-		"mem": "110g"
+		"cpus-per-task": "20",
+		"mem": "96g"
 	},
 	"pca": {
-		"mem": "88g",
-		"threads": "2"
+		"mem": "96g",
+		"threads": "20"
 	},
 	"picard": {
-		"gres": "lscratch:256",
-		"mem": "110g",
-		"threads": "6"
+		"cpus-per-task": "20",
+		"mem": "96g",
+		"threads": "20"
 	},
 	"preseq": {
-		"mem": "24g"
+		"mem": "48g"
 	},
 	"qualibam": {
-		"threads": "8",
-		"mem": "12g",
-		"time": "1-00:00:00"
+		"threads": "20",
+		"mem": "24g",
+		"time": "11:59:00"
 	},
 	"rawfastqc": {
-		"threads": "8",
-		"gres": "lscratch:64"
+		"threads": "20"
 	},
 	"rsem": {
-		"gres": "lscratch:500",
-		"threads": "16",
-		"time": "4-00:00:00"
+		"mem": "96g",
+		"threads": "20"
 	},
 	"star1p": {
-		"mem": "110g",
-		"threads": "32",
-		"time": "4-00:00:00"
+		"mem": "96g",
+		"threads": "20"
 	},
 	"star2p": {
-		"mem": "110g",
-		"threads": "32",
-		"time": "4-00:00:00"
+		"mem": "96g",
+		"threads": "20"
 	},
 	"star_basic": {
-		"mem": "110g",
-		"threads": "32",
-		"time": "4-00:00:00"
+		"mem": "96g",
+		"threads": "20"
 	},
 	"star_small": {
-		"mem": "110g",
-		"threads": "32",
-		"time": "4-00:00:00"
+		"mem": "96g",
+		"threads": "20"
 	},
 	"arriba": {
-		"gres": "lscratch:256",
-		"mem": "110g",
-		"threads": "32",
-		"time": "4-00:00:00"
+		"mem": "96g",
+		"threads": "20"
 	},
 	"stats": {
-		"gres": "lscratch:256",
-		"mem": "110g",
-		"threads": "4"
+		"mem": "96g",
+		"threads": "20"
 	},
 	"subread": {
-		"gres": "lscratch:500",
-		"threads": "16",
-		"time": "1-00:00:00"
+		"mem": "96g",
+		"threads": "20"
 	},
 	"subreadoverlap": {
-		"gres": "lscratch:500",
-		"threads": "16",
-		"time": "1-00:00:00"
+		"mem": "96g",
+		"threads": "20"
 	},
 	"trim_pe": {
-		"mem": "24g",
-		"threads": "32"
+		"mem": "48g",
+		"threads": "20"
 	},
 	"trim_se": {
-		"mem": "24g",
-		"threads": "32"
+		"mem": "48g",
+		"threads": "20"
 	}
 }
