@@ -7,18 +7,15 @@
     },
     "star_rl": {
         "mem": "48g",
-        "threads": "20",
-        "time": "11:59:00"
+        "threads": "20"
     },
     "star_genome": {
         "mem": "48g",
-        "threads": "20",
-        "time": "11:59:00"
+        "threads": "20"
     },
     "rsem": {
         "mem": "48g",
-        "threads": "20",
-        "time": "11:59:00"
+        "threads": "20"
     },
     "qualimapinfo": {
         "mem": "24g"
